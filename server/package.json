@@ -10,9 +10,10 @@
     "npm": "10.x"
   },
   "scripts": {
-    "start": "node src/server.js",
-    "dev": "nodemon src/server.js"
-  },
+  "start": "node src/server.js",
+  "dev": "nodemon src/server.js",
+  "build": "echo \"no build step required\""
+},
   "author": "Akshay Kumar",
   "license": "ISC",
   "dependencies": {
